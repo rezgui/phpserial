@@ -1,6 +1,6 @@
 <?php
 
-namespace RsolutionDz\PhpSerial;
+namespace Rezgui\PhpSerial;
 
 use Illuminate\Support\Facades\Facade;
 
