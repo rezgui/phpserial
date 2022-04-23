@@ -1,8 +1,8 @@
-# Php-Serial
+# PhpSerial
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/rezgui/php-serial.svg?style=flat-square)](https://packagist.org/packages/rezgui/php-serial)
-[![Total Downloads](https://img.shields.io/packagist/dt/rezgui/php-serial.svg?style=flat-square)](https://packagist.org/packages/rezgui/php-serial)
-![GitHub Actions](https://github.com/rezgui/php-serial/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/rezgui/phpserial.svg?style=flat-square)](https://packagist.org/packages/rezgui/phpserial)
+[![Total Downloads](https://img.shields.io/packagist/dt/rezgui/phpserial.svg?style=flat-square)](https://packagist.org/packages/rezgui/phpserial)
+![GitHub Actions](https://github.com/rezgui/phpserial/actions/workflows/main.yml/badge.svg)
 
 Multi-platform serial port access convenience class for Laravel.
 
@@ -11,7 +11,7 @@ Multi-platform serial port access convenience class for Laravel.
 You can install the package via composer:
 
 ```bash
-composer require rezgui/php-serial
+composer require rezgui/phpserial
 ```
 
 ## Usage

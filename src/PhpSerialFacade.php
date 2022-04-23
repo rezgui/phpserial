@@ -1,13 +1,13 @@
 <?php
 
-namespace Rezgui\PhpSerial;
+namespace Rezgui\Phpserial;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \RsolutionDz\PhpSerial\Skeleton\SkeletonClass
+ * @see \Rezgui\Phpserial\Skeleton\SkeletonClass
  */
-class PhpSerialFacade extends Facade
+class PhpserialFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class PhpSerialFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'php-serial';
+        return 'phpserial';
     }
 }

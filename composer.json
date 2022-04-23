@@ -1,13 +1,14 @@
 {
-    "name": "rezgui/php-serial",
+    "name": "rezgui/phpserial",
     "description": "Multi-platform serial port access convenience class for Laravel",
     "keywords": [
         "laravel",
         "rezgui",
         "rsolution-dz",
-        "php-serial"
+        "php-serial",
+        "phpserial"
     ],
-    "homepage": "https://github.com/rezgui/php-serial",
+    "homepage": "https://github.com/rezgui/phpserial",
     "license": "MIT",
     "type": "library",
     "authors": [{
@@ -25,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Rezgui\\PhpSerial\\": "src"
+            "Rezgui\\Phpserial\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rezgui\\PhpSerial\\Tests\\": "tests"
+            "Rezgui\\Phpserial\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +45,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rezgui\\PhpSerial\\PhpSerialServiceProvider"
+                "Rezgui\\Phpserial\\PhpserialServiceProvider"
             ],
             "aliases": {
-                "PhpSerial": "Rezgui\\PhpSerial\\PhpSerialFacade"
+                "Phpserial": "Rezgui\\Phpserial\\PhpserialFacade"
             }
         }
     }
