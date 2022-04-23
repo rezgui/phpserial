@@ -21,7 +21,7 @@ class PhpserialServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../config/config.php' => config_path('phpserial.php'),
+                __DIR__.'/../config/phpserial-config.php' => config_path('phpserial.php'),
             ], 'config');
 
             // Publishing the views.
@@ -50,11 +50,11 @@ class PhpserialServiceProvider extends ServiceProvider
     public function register()
     {
         // Automatically apply the package configuration
-        $this->mergeConfigFrom(__DIR__.'/../config/config.php', 'phpserial');
+        $this->mergeConfigFrom(__DIR__.'/../config/phpserial-config.php', 'phpserial');
 
         // Register the main class to use with the facade
         $this->app->singleton('phpserial', function () {
-            return new Phpserial;
+            return new Phpserial();
         });
     }
 }
